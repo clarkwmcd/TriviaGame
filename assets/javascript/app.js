@@ -43,7 +43,7 @@ $(document).ready(function() {
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q1.choices[1] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q1.choices[2] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary correct choice'>"+ q1.choices[3] + "</button>");
-      $("#timer").text("Time Remaining: 30 Seconds");
+      $("#timer").text("Time Remaining: 15 Seconds");
       set = setInterval(countdown, 1000);
       counter++;
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q2.choices[1] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q2.choices[2] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary correct choice'>"+ q2.choices[3] + "</button>");
-      $("#timer").text("Time Remaining: 30 Seconds");
+      $("#timer").text("Time Remaining: 15 Seconds");
       set = setInterval(countdown, 1000);
       counter++;
 
@@ -64,7 +64,7 @@ $(document).ready(function() {
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q3.choices[1] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q3.choices[2] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary correct choice'>"+ q3.choices[3] + "</button>");
-      $("#timer").text("Time Remaining: 30 Seconds");
+      $("#timer").text("Time Remaining: 15 Seconds");
       set = setInterval(countdown, 1000);
       counter++;
 
@@ -74,18 +74,18 @@ $(document).ready(function() {
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q4.choices[1] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q4.choices[2] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary correct choice'>"+ q4.choices[3] + "</button>");
-      $("#timer").text("Time Remaining: 30 Seconds");
+      $("#timer").text("Time Remaining: 15 Seconds");
       set = setInterval(countdown, 1000);
       counter++;
 
     } else if (counter === 4) {
-      debugger;
+      
       $("#start").append("<h2 class='questions'>" + q5.question + "</h2>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q5.choices[0] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q5.choices[1] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary incorrect choice'>"+ q5.choices[2] + "</button>" + "</br>" +
       "<button type='button' class='btn btn-primary correct choice'>"+ q5.choices[3] + "</button>");
-      $("#timer").text("Time Remaining: 30 Seconds");
+      $("#timer").text("Time Remaining: 15 Seconds");
       set = setInterval(countdown, 1000);
 
     }
