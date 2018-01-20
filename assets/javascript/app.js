@@ -26,7 +26,7 @@ $(document).ready(function() {
   };
 
   var counter = 0;
-  var timeLeft = 5;
+  var timeLeft = 15;
   var timeLeftt = 5;
   var set;
   var sett;
@@ -124,7 +124,7 @@ $(document).ready(function() {
     if (timeLeft === 0) {
       noAnswerCounter++;
       results();
-      timeLeft = 5;
+      timeLeft = 15;
     } else {
       $("#timer").text("Time Remaining: " + timeLeft + " Seconds");
       timeLeft--;
@@ -145,7 +145,7 @@ $(document).ready(function() {
     correctCounter++;
     clearInterval(set);
     clearInterval(sett);
-    timeLeft = 5;
+    timeLeft = 15;
     $("#start").html("<h2>Correct!</h2>");
     $("#timer").text("");
     if(counter<=4){
@@ -163,7 +163,7 @@ $(document).ready(function() {
     incorrectCounter++;
     clearInterval(set);
     clearInterval(sett);
-    timeLeft = 5;
+    timeLeft = 15;
     $("#start").html("<h2>Incorrect!</h2>");
     $("#timer").text("");
     if(counter<=4){
