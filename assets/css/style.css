@@ -1,13 +1,14 @@
 
 
-#startbtn {
-  padding: 20px;
-  background-color: green;
-}
 
 
-.choice {
+
+/* .choice {
   padding: 20px;
   margin: 40px;
   background-color: lightgreen;
+} */
+
+.btn {
+  margin-top: 20px;
 }
